@@ -25,3 +25,15 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## What you have to do
+Don't use a component library, you must create every component you need (also simple components like buttons).
+
+Application:
+- Create a basic application that uses this rest api https://gorest.co.in/
+  - List and open the detail of users, posts and comments
+  - Create dedicated routes for show a single user/post
+- Integrate this graphql api: https://studio.apollographql.com/public/SpaceX-pxxbxen/home?variant=current 
+- Create unit tests (100% coverage)
+- Use NGRX for the state management (optional)
+- For each component created, create also a storybook story (optional)
